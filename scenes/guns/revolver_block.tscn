@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/guns/revolver_block.gd" type="Script" id=1]
+[ext_resource path="res://scenes/guns/tile.tscn" type="PackedScene" id=2]
+
+[node name="revolver_block" type="Node2D"]
+position = Vector2( -36, -36 )
+script = ExtResource( 1 )
+
+[node name="20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 12, 12 )
+frame = 20
+
+[node name="26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 12, 36 )
+frame = 26
+
+[node name="27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 36, 36 )
+frame = 27
+
+[node name="28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 60, 36 )
+frame = 28

@@ -15,8 +15,15 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Mix and Game Jam 2020"
+config/name="Gun Factory"
+run/main_scene="res://scenes/game.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/height=576
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
 
 [rendering]
 
